@@ -8,67 +8,60 @@ body {
 #wrapper {
   background-color: #fff;
   height: 100%;
-  padding: 35px;
+  padding: 0 35px;
 }
 header {
 
 }
-section {
-}
 .pageTop {
   height: 2000px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 .pageTopArea {
-  background-color: cornflowerblue;
-  display: flex;
-  flex-flow: row-reverse;
+  /* background-color: cornflowerblue; */
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .pageTopArea > ul {
-  background-color: yellowgreen;
-  writing-mode: vertical-rl;
-  font-size: 40px;
-  font-weight: bold;
-  margin: auto;
+  /* background-color: yellowgreen; */
+  display: flex;
   list-style-type: circle;
   position: absolute;
-  height: 1200px;
-  width: 25%;
-  margin-right: 450px;
-  top: 150px;
+  width: 15%;
+  top: 110px;
+  left: 50px;
 }
 .pageTopArea > ul > li{
-  width: 15%;
-  background-color: cornsilk;
+  width: 100%;
+  /* background-color: cornsilk; */
+  text-align: center;
+  list-style: none;
 }
-
-.text-combine {
-  -webkit-text-combine: horizontal;
-  -ms-text-combine-horizontal: all;
-  text-combine-upright: all;
-}
-.headLine {
+.pageTopArea > div {
   width: 50%;
-  background-color: turquoise;
-  /* position: absolute; */
+  /* background-color: turquoise; */
   margin: auto;
-  font-family: "ヒラギノ明朝 Pro W3","ＭＳ 明朝";
+}
+.headLine-top > img {
+  height: 160px;
+}
+.headLine-bottom > img {
+  height: 1000px;
+}
+.leadImage-place {
+  height: 800px;
+}
+.leadImage-holdingPeriod {
+  height: 450px;
 }
 .headLine-top {
-  font-size: 120px;
-  border-top: solid 3px;
-  border-bottom: solid 3px;
-  background-color: tomato;
-  width: 70%;
+  /* background-color: tomato; */
   margin: auto;
   text-align: center;
 }
 .headLine-bottom {
-  font-size: 200px;
-  writing-mode: vertical-rl;
-  background-color: violet;
+  text-align: center;
+  /* background-color: violet; */
   width: 70%;
   margin: auto;
 }
@@ -77,6 +70,17 @@ section {
   height: 850px;
   width: 750px;
   margin: auto;
+}
+.pageTop-imagArea > img {
+  height: 850px;
+}
+.headLine-background {
+  position: absolute;
+  top: 220px;
+  right: 50px;
+}
+.headLine-background > img {
+  height: 220px;
 }
 nav {
   height: 450px;
