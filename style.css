@@ -14,7 +14,7 @@ header {
 
 }
 .pageTop {
-  height: 2000px;
+  height: auto;
   /* background-color: antiquewhite; */
 }
 .pageTopArea {
@@ -82,8 +82,23 @@ header {
 .headLine-background > img {
   height: 220px;
 }
+.roundIllustrations {
+  padding: 30px 0;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.roundIllustrations > img {
+  height: 28px;
+}
+
+
+
+
+
 nav {
-  height: 450px;
+  height: 1500px;
   background-color: antiquewhite;
 }
 nav > div {
