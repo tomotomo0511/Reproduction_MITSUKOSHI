@@ -99,30 +99,43 @@ header {
 
 nav {
   height: 1500px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 nav > div {
-  background-color: tomato;
+  /* background-color: tomato; */
   height: 400px;
 
 }
 nav > div > ul {
-  background-color: whitesmoke;
-  height: 50%;
+  /* background-color: whitesmoke; */
+  height: 55%;
   display: flex;
-  width: 100%;
+  width: 95%;
   text-align: center;
-  border-top: dashed 3px;
-  border-bottom: dashed 3px;
+  border-bottom: dashed 3px #cccc66;
+}
+.upperNavigation {
+  border-top: dashed 3px #cccc66;
 }
 
 nav > div > ul > li {
-  background-color: thistle;
+  /* background-color: thistle; */
   margin: auto;
   list-style: none;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
-  height: 60%;
+  height: auto;
+  font-family: "ヒラギノ明朝 Pro W3","ＭＳ 明朝";
+  letter-spacing: -0.1em;
+}
+.downArrow {
+  height: 15px;
+  position: absolute;
+  margin-top: 25px;
+}
+.floorMapText {
+  height: auto;
+  line-height: 40px;
 }
 
 
