@@ -1,0 +1,160 @@
+body {
+  background-color: #cccc66;
+  padding: 35px;
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+#wrapper {
+  background-color: #fff;
+  height: 100%;
+  padding: 35px;
+}
+header {
+
+}
+section {
+}
+.pageTop {
+  height: 2000px;
+  background-color: antiquewhite;
+}
+.pageTopArea {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-flow: row-reverse;
+  position: relative;
+  padding: 150px 0;
+}
+.pageTopArea > ul {
+  background-color: yellowgreen;
+  writing-mode: vertical-rl;
+  font-size: 40px;
+  font-weight: bold;
+  margin: auto;
+  list-style-type: circle;
+  position: absolute;
+  height: 1200px;
+  width: 25%;
+  margin-right: 450px;
+  top: 150px;
+}
+.pageTopArea > ul > li{
+  width: 15%;
+  background-color: cornsilk;
+}
+
+.text-combine {
+  -webkit-text-combine: horizontal;
+  -ms-text-combine-horizontal: all;
+  text-combine-upright: all;
+}
+.headLine {
+  width: 50%;
+  background-color: turquoise;
+  /* position: absolute; */
+  margin: auto;
+  font-family: "ヒラギノ明朝 Pro W3","ＭＳ 明朝";
+}
+.headLine-top {
+  font-size: 120px;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  background-color: tomato;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.headLine-bottom {
+  font-size: 200px;
+  writing-mode: vertical-rl;
+  background-color: violet;
+  width: 70%;
+  margin: auto;
+}
+.pageTop-imagArea {
+  background-color: black;
+  height: 850px;
+  width: 750px;
+  margin: auto;
+}
+nav {
+  height: 450px;
+  background-color: antiquewhite;
+}
+nav > div {
+  background-color: tomato;
+  height: 400px;
+
+}
+nav > div > ul {
+  background-color: whitesmoke;
+  height: 50%;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border-top: dashed 3px;
+  border-bottom: dashed 3px;
+}
+
+nav > div > ul > li {
+  background-color: thistle;
+  margin: auto;
+  list-style: none;
+  font-size: 45px;
+  font-weight: bold;
+  height: 60%;
+}
+
+
+
+
+footer {
+  /* background-color: #fff;
+  height: 100%; */
+}
+/* .footer-snsArea {
+  background-color: lightcyan;
+}
+.footer-snsArea > ul {
+  display: flex;
+}
+.footer-snsArea > ul > li {
+  width: 100%;
+  list-style: none;
+}
+.footer-snsArea > ul > li > a {
+  display: inline-block;
+}
+.footer-leftBox {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+}
+.footer-leftBox-text {
+  background-color: lightgreen;
+}
+.footer-rightBox {
+  background-color: lightgoldenrodyellow;
+}
+.footer-rightBox-head {
+  display: flex;
+}
+.footer-rightBox-head-imageFrame {
+  background-color: lightgreen;
+  height: 40px;
+  width: 40px;
+}
+.footer-rightBox-head-imageFrame > img {
+  height: 30px;
+  width: 30px;
+  background-color: lightpink;
+}
+.footer-rightBox-head-titleBox {
+
+}
+.footer-rightBox-head-titleBox > h3 {
+  background-color: lightgreen;
+}
+small {
+  background-color: lightgreen;
+} */
