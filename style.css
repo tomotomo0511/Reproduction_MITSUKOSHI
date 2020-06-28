@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
 }
 #wrapper {
-  background-color: #fff;
+  background-color: #f8f4e6;
   height: 100%;
   padding: 0 35px;
 }
@@ -98,7 +98,7 @@ header {
 
 
 nav {
-  height: 1500px;
+  height: 550px;
   /* background-color: antiquewhite; */
 }
 nav > div {
@@ -136,6 +136,133 @@ nav > div > ul > li {
 .floorMapText {
   height: auto;
   line-height: 40px;
+}
+.cookingNavigation {
+  /* background-color: wheat; */
+  height: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cookingNav-headLine {
+  /* background-color: violet; */
+  height: 1000px;
+  width: 20%;
+  position: absolute;
+  right: 60px;
+}
+.cookingNav-background {
+  z-index: 3;
+}
+.cookingNavSubTitle {
+  height: 180px;
+  position: absolute;
+  top: 170px;
+  right: 90px;
+  z-index: 1;
+}
+.cookingNavigation > div > h3 {
+  font-size: 100px;
+  position: absolute;
+  top: 400px;
+  writing-mode: vertical-rl;
+  font-family: "ヒラギノ明朝 Pro W3","ＭＳ 明朝";
+  z-index: 1;
+}
+.cookingArea {
+  background-color: #fff;
+  height: 90%;
+  width: 100%;
+  position: relative;
+}
+.cooking-head {
+  /* background-color: yellowgreen; */
+  height: 530px;
+  width: 95%;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.cooking-head > li {
+  /* background-color: white; */
+  height: 470px;
+  width: 90%;
+  position: absolute;
+  position: relative;
+  top: 30px;
+  list-style: none;
+}
+.cooking-bottom {
+  /* background-color: yellowgreen; */
+  height: 530px;
+  width: 95%;
+  display: flex;
+  position: absolute;
+  top: 520px;
+  left: 0;
+}
+.cooking-bottom > li {
+  /* background-color: white; */
+  height: 470px;
+  width: 90%;
+  position: absolute;
+  position: relative;
+  top: 30px;
+  list-style: none;
+}
+
+.cooking-textLeft {
+  position: absolute;
+  top: -50px;
+  right: 120px;
+  /* background-color: wheat; */
+  height: 450px;
+  width: 70px;
+}
+.cooking-textLeft > h4 > img {
+  width: 70px;
+  position: absolute;
+  right: 0;
+}
+.cooking-imgLeft {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  /* background-color: wheat; */
+  height: 380px;
+  width: 380px;
+}
+.cooking-imgLeft > img {
+  width: 370px;
+  position: absolute;
+  right: 0;
+}
+
+.cooking-textRight {
+  position: absolute;
+  top: -50px;
+  right: 180px;
+  /* background-color: wheat; */
+  height: 450px;
+  width: 70px;
+}
+.cooking-textRight > h4 > img {
+  width: 70px;
+  position: absolute;
+  right: 0;
+}
+.cooking-imgRight {
+  position: absolute;
+  top: 50px;
+  right: 260px;
+  /* background-color: wheat; */
+  height: 380px;
+  width: 380px;
+}
+.cooking-imgRight > img {
+  width: 370px;
+  position: absolute;
+  right: 0;
 }
 
 
