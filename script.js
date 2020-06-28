@@ -1,6 +1,6 @@
 $(function () {
   $('a[href^=#]').click(function () {
-    var adjust = 0;
+    var adjust = -500;
     var speed = 400;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
