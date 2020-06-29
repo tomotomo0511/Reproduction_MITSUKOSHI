@@ -370,10 +370,111 @@ nav > div > ul > li {
   right: -20px;
 }
 
-section {
-  height: 1300px;
-  background-color: lightpink;
+
+.cookingArticle {
+  height: 6200px;
+  /* background-color: lightpink; */
   margin-top: 50px;
+}
+.cookingArticle > article {
+  /* background-color: lightskyblue; */
+  height: 2000px;
+  margin-top: 50px;
+}
+.cookingArticle > article > header {
+  /* background-color: lightyellow; */
+  height: 600px;
+}
+.cookingArticle > article > header > img{
+  height: 600px;
+  width: 100%;
+}
+.cookingArticle > article > main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.articleMain-header {
+  /* background-color: lightseagreen; */
+  height: 640px;
+  width: 8%;
+  border-left: dashed 3px #d1d39e;
+  border-right: dashed 3px #d1d39e;
+  padding: 30px;
+  margin: 70px 0;
+  position: relative;
+}
+.articleMain-header > h1 {
+  text-align: center;
+}
+.articleMain-header > h1 > img {
+  height: 250px;
+}
+.articleMain-header h1 + h2 {
+  text-align: center;
+}
+.articleMain-header h1 + h2 > img {
+  height: 300px;
+}
+.articleMain-header > h2 + h2 {
+  position: absolute;
+  top: 307px;
+  left: 35px;
+}
+.articleMain-header > h2 + h2 > img {
+  height: 300px;
+}
+.articleMain-content {
+  /* background-color: magenta; */
+  height: 700px;
+  width: 80%;
+  margin: 70px 0;
+  padding: 0 30px;
+  position: relative;
+}
+.articleMain-content > p {
+  text-align: center;
+  z-index: 1;
+}
+.articleMain-content > p > img {
+  height: 610px;
+}
+.articleMain-content > p + p {
+  position: absolute;
+  top: 0px;
+  left: 79px;
+  z-index: 1;
+}
+.articleMain-content > p + p > img {
+  height: 610px;
+}
+.articleMain-content > div {
+  position: absolute;
+  top: -52px;
+  left: 550px;
+}
+.articleMain-content > div > img {
+  height: 135px;
+}
+
+.cookingArticle > article > footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.articleFooter-header {
+  background-color: lightseagreen;
+  height: 700px;
+  width: 20%;
+  border-top: solid 1px #d1d39e;
+}
+.articleFooter-header > h1 > img{
+}
+.articleFooter-header > h2 > img{
+  
+}
+.articleFooter-content {
+  background-color: magenta;
+  height: 700px;
+  width: 80%;
 }
 
 
