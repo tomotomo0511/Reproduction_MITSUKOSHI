@@ -7,21 +7,17 @@ body {
 }
 #wrapper {
   background-color: #fffffc;
-  /* height: 5000px; */
   padding: 0 20px;
 }
 .pageTop {
   height: auto;
-  /* background-color: antiquewhite; */
 }
 .pageTopArea {
-  /* background-color: cornflowerblue; */
   height: auto;
   position: relative;
   padding: 120px 0;
 }
 .pageTopArea > ul {
-  /* background-color: yellowgreen; */
   display: flex;
   list-style-type: circle;
   position: absolute;
@@ -31,18 +27,15 @@ body {
 }
 .pageTopArea > ul > li{
   width: 100%;
-  /* background-color: cornsilk; */
   text-align: center;
   list-style: none;
 }
 .pageTopArea > div {
   width: 50%;
-  /* background-color: turquoise; */
   margin: auto;
 }
 .leadArea {
-  /* background-color: violet; */
-  margin: 0px 0 0 0;
+  margin: 0;
 }
 .leadMark {
   height: 25px;
@@ -61,7 +54,6 @@ body {
   height: 430px;
 }
 .headLine-top {
-  /* background-color: tomato; */
   margin: auto;
   text-align: center;
   position: relative;
@@ -69,7 +61,6 @@ body {
 }
 .headLine-bottom {
   text-align: center;
-  /* background-color: violet; */
   width: 70%;
   margin: auto;
 }
@@ -117,15 +108,12 @@ body {
 
 nav {
   height: 550px;
-  /* background-color: antiquewhite; */
 }
 nav > div {
-  /* background-color: tomato; */
   height: 400px;
 
 }
 nav > div > ul {
-  /* background-color: whitesmoke; */
   height: 55%;
   display: flex;
   width: 95%;
@@ -137,7 +125,6 @@ nav > div > ul {
 }
 
 nav > div > ul > li {
-  /* background-color: thistle; */
   margin: auto;
   list-style: none;
   font-size: 40px;
@@ -156,26 +143,29 @@ nav > div > ul > li {
   line-height: 40px;
 }
 .cookingNavigation {
-  /* background-color: wheat; */
   height: 100%;
   display: flex;
   flex-direction: row-reverse;
 }
 .cookingNav-headLine {
-  /* background-color: violet; */
   height: 1000px;
   width: 20%;
   position: absolute;
   right: 60px;
 }
-.cookingNav-background {
-  /* height: 100px; */
+.cookingNav-headLine > div {
+  margin: 85px 0 0 10px;
 }
+.cookingNav-headLine > div > img{
+  height: 125px;
+}
+
+
 .cookingNavSubTitle {
   height: 150px;
   position: absolute;
-  top: 170px;
-  right: 49px;
+  top: 195px;
+  right: 55px;
   z-index: 1;
 }
 .cookingNavigation > div > h3 {
@@ -189,14 +179,12 @@ nav > div > ul > li {
   z-index: 1;
 }
 .cookingArea {
-  /* background-color: white; */
   border: solid 0.5px lightgray;
   height: 980px;
   width: 100%;
   position: relative;
 }
 .cooking-head {
-  /* background-color: yellow; */
   height: 420px;
   width: 95%;
   display: flex;
@@ -205,7 +193,6 @@ nav > div > ul > li {
   left: 0;
 }
 .cooking-head > li {
-  /* background-color: white; */
   height: 470px;
   width: 90%;
   position: absolute;
@@ -214,7 +201,6 @@ nav > div > ul > li {
   list-style: none;
 }
 .cooking-bottom {
-  /* background-color: yellowgreen; */
   height: 500px;
   width: 95%;
   display: flex;
@@ -223,7 +209,6 @@ nav > div > ul > li {
   left: 0;
 }
 .cooking-bottom > li {
-  /* background-color: white; */
   height: 470px;
   width: 90%;
   position: absolute;
@@ -236,20 +221,17 @@ nav > div > ul > li {
   position: absolute;
   top: 0px;
   right: 30px;
-  /* background-color: wheat; */
   height: 450px;
   width: 70px;
 }
 .cooking-textLeft > h4 > img {
   width: 50px;
   position: absolute;
-  /* right: -50px; */
 }
 .cooking-imgLeft {
   position: absolute;
   top: 90px;
   right: 70px;
-  /* background-color: wheat; */
   height: 260px;
   width: 260px;
 }
@@ -263,7 +245,6 @@ nav > div > ul > li {
   position: absolute;
   top: 0px;
   right: 120px;
-  /* background-color: wheat; */
   height: 450px;
   width: 70px;
 }
@@ -276,7 +257,6 @@ nav > div > ul > li {
   position: absolute;
   top: 90px;
   right: 145px;
-  /* background-color: wheat; */
   height: 260px;
   width: 260px;
 }
@@ -287,7 +267,6 @@ nav > div > ul > li {
 }
 
 .wavyLine-zouni {
-  /* background-color: #cccc66; */
   height: 200px;
   position: absolute;
   top: 130px;
@@ -309,7 +288,6 @@ nav > div > ul > li {
   border-left: dashed 3px #d1d39e;
 }
 .arrowButton {
-  /* background-color: lightgreen; */
   position: absolute;
   top: 340px;
   left: 13px;
@@ -370,16 +348,13 @@ nav > div > ul > li {
 
 .cookingArticle {
   height: 6200px;
-  /* background-color: lightpink; */
   margin-top: 50px;
 }
 .cookingArticle > article {
-  /* background-color: lightskyblue; */
   height: 2000px;
   margin-top: 50px;
 }
 .cookingArticle > article > figure {
-  /* background-color: yellow; */
   height: 700px;
   text-align: center;
   margin: 0;
@@ -394,11 +369,7 @@ nav > div > ul > li {
 }
 
 
-article > figure > img {
-  /* margin-top: 350px; */
-}
 .articleMain-header {
-  /* background-color: lightseagreen; */
   height: 640px;
   width: 8%;
   border-left: dashed 3px #d1d39e;
@@ -429,7 +400,6 @@ article > figure > img {
   left: 36px;
 }
 .articleMain-content {
-  /* background-color: magenta; */
   height: 700px;
   width: 80%;
   margin-bottom: 70px;
@@ -467,11 +437,9 @@ article > footer {
   padding-bottom: 60px;
   border-top: solid 1px #d1d39e;
   border-bottom: solid 1px #d1d39e;
-  /* background-color: yellow; */
   position: relative;
 }
 .articleFooter-header {
-  /* background-color: lightseagreen; */
   height: 700px;
   width: 8%;
   margin: 50px 0;
@@ -480,7 +448,6 @@ article > footer {
 }
 .articleFooter-header > div {
   text-align: center;
-  /* background-color: orange; */
   width: auto;
   position: relative;
 }
@@ -500,23 +467,19 @@ article > footer {
 }
 
 .articleFooter-content {
-  /* background-color: magenta; */
   height: auto;
   width: 97%;
   margin: 50px 0;
-  /* padding: 0 30px; */
   text-align: center;
   position: absolute;
 }
 .articleFooter-contentHeader {
-  /* background-color: skyblue; */
   padding: 30px 0;
 }
 .articleFooter-contentMain {
   width: 75%;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: skyblue; */
   margin: 0 0 20px 70px;
 }
 .turnNumber {
@@ -526,14 +489,12 @@ article > footer {
   height: 570px;
 }
 .sideScroll-btnRight {
-  /* background-color: slateblue; */
   height: 100px;
   width: 100px;
   margin-top: 220px;
   position: relative;
 }
 .sideScroll-btnLeft {
-  /* background-color: slateblue; */
   height: 100px;
   width: 100px;
   margin: 220px 50px 0 0;
@@ -543,32 +504,27 @@ article > footer {
   position: absolute;
   top: 28px;
   right: 30px;
-  /* background-color: springgreen; */
   height: 28px;
 }
 .rightBtn-rightDiagonal {
   position: absolute;
   top: 52px;
   right: 30px;
-  /* background-color: springgreen; */
   height: 28px;
 }
 .leftBtn-leftDiagonal {
   position: absolute;
   top: 52px;
   right: 30px;
-  /* background-color: springgreen; */
   height: 28px;
 }
 .leftBtn-rightDiagonal {
   position: absolute;
   top: 28px;
   right: 30px;
-  /* background-color: springgreen; */
   height: 28px;
 }
 .articleFooter-contentFooter {
-  /* background-color: violet; */
   margin-right: 15px;
 }
 .articleFooter-contentFooter > img{
