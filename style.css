@@ -363,11 +363,10 @@ nav > div > ul > li {
   height: 600px;
   width: auto;
 }
-.cookingArticle > article > main {
+.article-main {
   display: flex;
   flex-direction: row-reverse;
 }
-
 
 .articleMain-header {
   height: 640px;
@@ -576,8 +575,39 @@ article > footer {
   top: 300px;
   left: 55px;
 }
-.articleImagw-iseebi {
+.articleMain {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.articleMain-iseebiPreparation {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+.articleMain-subTitle-iseebi {
+  /* background-color: violet; */
+  width: 25%;
+}
+.preparationHeader {
+  height: 210px;
+  padding: 20px 30px;
+  border-left: dashed 3px #d1d39e;
+  border-right: dashed 3px #d1d39e;
+  position: absolute;
+  right: 70px;
+}
+.articleMain-list-iseebi {
+  /* background-color: violet; */
+  width: 80%;
+  text-align: center;
+  margin-left: 130px;
+  padding-bottom: 50px;
+}
+.articleImage-iseebi {
   height: 370px;
+}
+.list-iseebi-image {
+  height: 600px;
 }
 .sideScroll-btnLeft-iseebi {
   height: 100px;
