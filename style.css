@@ -351,8 +351,8 @@ nav > div > ul > li {
   margin-top: 50px;
 }
 .cookingArticle > article {
-  height: 2000px;
-  margin-top: 50px;
+  height: auto;
+  margin-top: 60px;
 }
 .cookingArticle > article > figure {
   height: 700px;
@@ -381,7 +381,7 @@ nav > div > ul > li {
 .articleMain-header > h1 {
   text-align: center;
 }
-.articleMain-header > h1 > img {
+.articleMain-titleSukiyaki {
   height: 250px;
 }
 .articleMain-header h1 + h2 {
@@ -410,10 +410,10 @@ nav > div > ul > li {
   text-align: center;
   z-index: 1;
 }
-.articleMain-content01 {
+.articleMain-contentSukiyaki01 {
   height: 610px;
 }
-.articleMain-content02 {
+.articleMain-contentSukiyaki02 {
   height: 610px;
   position: absolute;
   top: 16px;
@@ -530,6 +530,36 @@ article > footer {
 .articleFooter-contentFooter > img{
   height: 20px;
   padding: 30px 7px;
+}
+.articleMain-contentOzouni01 {
+  height: 610px;
+  position: absolute;
+  left: 80px;
+}
+.articleMain-contentOzouni02 {
+  height: 610px;
+  position: absolute;
+  top: 16px;
+  left: 79px;
+  z-index: 1;
+}
+.articleMain-titleOzouni {
+  height: 220px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.articleMain-subTitleOzouni01 {
+  height: 380px;
+  position: absolute;
+  top: 300px;
+  left: 55px;
+}
+.articleMain-subTitleOzouni02 {
+  height: 380px;
+  position: absolute;
+  top: 300px;
+  left: 55px;
 }
 
 
