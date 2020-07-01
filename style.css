@@ -585,7 +585,6 @@ article > footer {
   flex-direction: row-reverse;
 }
 .articleMain-subTitle-iseebi {
-  /* background-color: violet; */
   width: 25%;
 }
 .preparationHeader {
@@ -597,7 +596,6 @@ article > footer {
   right: 70px;
 }
 .articleMain-list-iseebi {
-  /* background-color: violet; */
   width: 80%;
   text-align: center;
   margin-left: 130px;
@@ -655,6 +653,78 @@ article > footer {
   height: 18px;
   top: 36.5px;
   right: 54px;
+}
+
+.floorMap-area {
+  /* background-color: yellow; */
+  background-image: url(img/foodMap_background.png);
+  background-size: 760px 680px;
+  height: 680px;
+  width: 760px;
+  margin: 100px auto;
+  text-align: center;
+  border: solid 1px #d1d39e;
+  position: relative;
+}
+.foodMap-header {
+  height: 550px;
+  margin: 50px 30px 0 0;
+}
+.foodMap-pattern01 {
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  right: 70px;
+}
+.foodMap-pattern02 {
+  height: 130px;
+  position: absolute;
+  top: 300px;
+  left: 60px;
+}
+.camera {
+  padding-bottom: 50px;
+}
+.camera-area {
+  /* background-color: yellow; */
+  background-image: url(img/camera_background.png);
+  background-size: 760px 680px;
+  height: 680px;
+  width: 760px;
+  margin: 100px auto;
+  text-align: right;
+  border: solid 1px #d1d39e;
+  position: relative;
+}
+.camera-header {
+  height: 550px;
+  margin: 40px 50px 0 0;
+}
+.camera-area > h1 + img + div {
+  /* background-color: violet; */
+  position: absolute;
+  top: 0;
+  height: 680px;
+  width: 760px;
+  overflow: hidden;
+}
+.back-image {
+  height: 430px;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+}
+.front-image {
+  height: 430px;
+  position: absolute;
+  top: 280px;
+  left: 70px;
+}
+.camera-background {
+  height: 130px;
+  position: absolute;
+  top: 30px;
+  right: 150px;
 }
 
 
