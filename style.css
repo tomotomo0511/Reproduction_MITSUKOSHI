@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
 }
 #wrapper {
-  background-color: #fffffc;
+  background-color: #f8f4e6;
   padding: 0 20px;
 }
 .pageTop {
@@ -179,7 +179,7 @@ nav > div > ul > li {
   z-index: 1;
 }
 .cookingArea {
-  border: solid 0.5px lightgray;
+  background-color: #fffffc;
   height: 980px;
   width: 100%;
   position: relative;
@@ -551,6 +551,13 @@ article > footer {
   left: 79px;
   z-index: 1;
 }
+.articleMain-contentOzouni-pattem {
+  opacity: 0.05;
+  height: 550px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
 .articleMain-contentIseebi01 {
   height: 680px;
   position: absolute;
@@ -562,6 +569,20 @@ article > footer {
   top: 16px;
   left: 79px;
   z-index: 1;
+}
+.articleMain-contentIseebi-pattem {
+  opacity: 0.05;
+  height: 550px;
+  position: absolute;
+  top: 450px;
+  left: 0;
+}
+.articleMain-contentPirahu-pattem {
+  opacity: 0.05;
+  height: 600px;
+  position: absolute;
+  top: 350px;
+  left: 35px;
 }
 .articleMain-subTitleOzouni01 {
   height: 380px;
@@ -686,7 +707,6 @@ article > footer {
   padding-bottom: 50px;
 }
 .camera-area {
-  /* background-color: yellow; */
   background-image: url(img/camera_background.png);
   background-size: 760px 680px;
   height: 680px;
@@ -908,7 +928,8 @@ article > footer {
 
 .banners {
   height: auto;
-  background-color: #d1d39e;
+  /* background-color: #f3f3f2; */
+  border-top: solid 1px #d1d39e;
 }
 .banners > h1 {
   /* background-color: wheat; */
@@ -959,7 +980,7 @@ article > footer {
 
 
 footer {
-  /* background-color: yellow; */
+  background-color: #fffffc;
   height: auto;
 }
 
