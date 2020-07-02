@@ -908,6 +908,7 @@ article > footer {
 
 .banners {
   height: auto;
+  background-color: #d1d39e;
 }
 .banners > h1 {
   /* background-color: wheat; */
@@ -943,57 +944,73 @@ article > footer {
 .banner-img03 {
   height: 205px;
 }
+.banner-img_background04 {
+  height: 200px;
+}
+.banner-box_background04 {
+  position: relative;
+}
 .banner-img04 {
-  height: 195px;
+  height: 195.5px;
+  position: absolute;
+  top: 30px;
+  left: 44.5px;
 }
 
 
 footer {
-  /* background-color: #fff;
-  height: 100%; */
+  /* background-color: yellow; */
+  height: auto;
 }
-/* .footer-snsArea {
-  background-color: lightcyan;
-}
-.footer-snsArea > ul {
-  display: flex;
-}
-.footer-snsArea > ul > li {
-  width: 100%;
-  list-style: none;
-}
-.footer-snsArea > ul > li > a {
-  display: inline-block;
-}
-.footer-leftBox {
-  background-color: lightgoldenrodyellow;
-  display: flex;
-}
-.footer-leftBox-text {
-  background-color: lightgreen;
-}
-.footer-rightBox {
-  background-color: lightgoldenrodyellow;
-}
-.footer-rightBox-head {
-  display: flex;
-}
-.footer-rightBox-head-imageFrame {
-  background-color: lightgreen;
-  height: 40px;
-  width: 40px;
-}
-.footer-rightBox-head-imageFrame > img {
-  height: 30px;
-  width: 30px;
-  background-color: lightpink;
-}
-.footer-rightBox-head-titleBox {
 
+.sns-box {
+  position: relative;
+  /* background-color: violet; */
+  padding: 130px 0;
+  text-align: center;
 }
-.footer-rightBox-head-titleBox > h3 {
-  background-color: lightgreen;
+.sns-background {
+  height: 125px;
+  padding: 0 15px;
 }
-small {
-  background-color: lightgreen;
-} */
+.snsMark-facebook {
+  height: 45px;
+  position: absolute;
+  top: 167px;
+  left: 174px;
+}
+.snsMark-twitter {
+  height: 43px;
+  position: absolute;
+  top: 170px;
+  left: 323px;
+}
+.snsMark-instagram {
+  height: 45px;
+  position: absolute;
+  top: 170px;
+  left: 485px;
+}
+.snsMark-line {
+  height: 60px;
+  position: absolute;
+  top: 165px;
+  left: 635px;
+}
+footer > div + p {
+  text-align: center;
+}
+.footer-text {
+  height: 310px;
+}
+.footer-header {
+  text-align: center;
+}
+.footer-mitsukoshi {
+  height: 150px;
+  padding: 60px 0 50px 0;
+}
+.footer-copyright {
+  height: 24px;
+  padding-bottom: 150px;
+}
