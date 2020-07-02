@@ -734,9 +734,17 @@ article > footer {
   /* background-color: wheat; */
   text-align: center;
   padding: 120px 0;
+  position: relative;
 }
-.catalog > h1 > img {
+.catalog-header {
   height: 50px;
+}
+.catalog-background {
+  height: 170px;
+  opacity: 0.1;
+  position: absolute;
+  top: 70px;
+  left: 350px;
 }
 .catalog-main {
   /* background-color: yellow; */
@@ -898,6 +906,46 @@ article > footer {
   bottom: -43px;
 }
 
+.banners {
+  height: auto;
+}
+.banners > h1 {
+  /* background-color: wheat; */
+  text-align: center;
+  padding: 120px 0;
+  position: relative;
+}
+.banner-header {
+  height: 50px;
+}
+.banner-background {
+  height: 170px;
+  opacity: 0.1;
+  position: absolute;
+  top: 70px;
+  left: 350px;
+}
+.banner-box {
+  height: auto;
+  /* background-color: turquoise; */
+  text-align: center;
+  padding-bottom: 70px;
+}
+.banner-box > div {
+  padding-bottom: 35px;
+}
+.banner-img01 {
+  height: 200px;
+}
+.banner-img02 {
+  height: 200px;
+}
+.banner-img03 {
+  height: 205px;
+}
+.banner-img04 {
+  height: 195px;
+}
 
 
 footer {
