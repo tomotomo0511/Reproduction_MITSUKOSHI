@@ -727,6 +727,177 @@ article > footer {
   right: 150px;
 }
 
+.catalog {
+  height: auto;
+}
+.catalog > h1 {
+  /* background-color: wheat; */
+  text-align: center;
+  padding: 120px 0;
+}
+.catalog > h1 > img {
+  height: 50px;
+}
+.catalog-main {
+  /* background-color: yellow; */
+  height: 700px;
+}
+.catalog-box {
+  /* background-color: turquoise; */
+  text-align: center;
+  position: relative;
+}
+.catalog-img01 {
+  height: 500px;
+}
+.catalog-img02 {
+  height: 500px;
+}
+.catalog-img03 {
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 315px;
+}
+.catalog-img04 {
+  height: 450px;
+}
+.catalog-img05 {
+  height: 450px;
+}
+.catalog-img06 {
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 170px;
+  left: 300px;
+}
+.catalog-img-background {
+  height: 450px;
+}
+.catalog-figure {
+  position: relative;
+}
+.catalog-text-img01 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  left: 60px;
+}
+.catalog-text-img02 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  left: 235px;
+}
+.catalog-text-img03 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+
+}
+.catalog-text-img04 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  left: 120px;
+  left: 250px;
+}
+.catalog-text-img05 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  left: 120px;
+  left: 250px;
+}
+.catalog-text-img06 {
+  padding: 20px;
+  height: 40px;
+  position: absolute;
+  top: 450px;
+  left: 250px;
+}
+.catalog-header {
+  /* background-color: violet; */
+  text-align: center;
+  font-size: 50px;
+}
+.catalog-frontBox-01 {
+  height: 25px;
+  position: absolute;
+  left: 310px;
+  bottom: -60px;
+}
+.catalog-backBox-01 {
+  height: 25px;
+  position: absolute;
+  left: 305px;
+  bottom: -53px;
+}
+.catalog-frontBox-02 {
+  height: 25px;
+  position: absolute;
+  left: 450px;
+  bottom: -52px;
+}
+.catalog-backBox-02 {
+  height: 25px;
+  position: absolute;
+  left: 445px;
+  bottom: -47px;
+}
+.catalog-frontBox-03 {
+  height: 25px;
+  position: absolute;
+  left: 610px;
+  bottom: -50px;
+}
+.catalog-backBox-03 {
+  height: 25px;
+  position: absolute;
+  left: 605px;
+  bottom: -43px;
+}
+.catalog-frontBox-04 {
+  height: 25px;
+  position: absolute;
+  left: 600px;
+  bottom: -60px;
+}
+.catalog-backBox-04 {
+  height: 25px;
+  position: absolute;
+  left: 595px;
+  bottom: -53px;
+}
+.catalog-frontBox-05 {
+  height: 25px;
+  position: absolute;
+  left: 600px;
+  bottom: -60px;
+}
+.catalog-backBox-05 {
+  height: 25px;
+  position: absolute;
+  left: 595px;
+  bottom: -53px;
+}
+.catalog-frontBox-06 {
+  height: 25px;
+  position: absolute;
+  left: 480px;
+  bottom: -50px;
+}
+.catalog-backBox-06 {
+  height: 25px;
+  position: absolute;
+  left: 475px;
+  bottom: -43px;
+}
+
 
 
 footer {
